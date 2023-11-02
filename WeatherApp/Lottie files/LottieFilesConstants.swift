@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+enum Constants {
+    static var wait = "wait"
+    static var sunny = "sunny"
+    static var rain = "rainy"
+    static var snow = "snow"
+    static var thunder = "thunder"
+}
