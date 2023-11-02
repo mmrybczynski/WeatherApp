@@ -20,6 +20,7 @@
 		C108208C2AF4001A00036D22 /* rainy.json in Resources */ = {isa = PBXBuildFile; fileRef = C10820872AF4001A00036D22 /* rainy.json */; };
 		C108208E2AF4002F00036D22 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208D2AF4002F00036D22 /* LottieView.swift */; };
 		C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208F2AF4019000036D22 /* LottieFilesConstants.swift */; };
+		C10820922AF403B100036D22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10820912AF403B100036D22 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		C10820872AF4001A00036D22 /* rainy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = rainy.json; path = ../../../../FLUTTER/weather_app/assets/rainy.json; sourceTree = "<group>"; };
 		C108208D2AF4002F00036D22 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		C108208F2AF4019000036D22 /* LottieFilesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFilesConstants.swift; sourceTree = "<group>"; };
+		C10820912AF403B100036D22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		C108207C2AF3FBE100036D22 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				C10820912AF403B100036D22 /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				C108207E2AF3FC2000036D22 /* WeatherView.swift in Sources */,
 				C108206F2AF3FB3400036D22 /* ContentView.swift in Sources */,
+				C10820922AF403B100036D22 /* LocationManager.swift in Sources */,
 				C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */,
 				C108206D2AF3FB3400036D22 /* WeatherAppApp.swift in Sources */,
 				C108208E2AF4002F00036D22 /* LottieView.swift in Sources */,
