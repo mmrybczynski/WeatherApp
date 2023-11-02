@@ -1,0 +1,12 @@
+{
+  "data" : [
+    {
+      "filename" : "wait.json",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
