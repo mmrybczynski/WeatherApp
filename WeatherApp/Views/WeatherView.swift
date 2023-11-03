@@ -17,6 +17,7 @@ struct WeatherView: View {
                 Spacer()
                 
                 LottieView(name: Constants.wait, loopMode: .loop)
+                    .scaleEffect(0.3)
                 
                 Spacer()
                 Text("16")
