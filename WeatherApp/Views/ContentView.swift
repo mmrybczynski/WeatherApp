@@ -8,8 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var locationManager = LocationManager.shared
     var body: some View {
-        WeatherView()
+        Group {
+            if locationManager.userLocation == nil {
+                ShareLocationView()
+            } else {
+                WeatherView()
+            }
+        }
     }
 }
 

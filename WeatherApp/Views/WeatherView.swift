@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct WeatherView: View {
+    @ObservedObject var locationManager = LocationManager.shared
     var body: some View {
         ZStack {
+            
             VStack {
                 Image(systemName: "location.fill")
                     .padding(.vertical,5)

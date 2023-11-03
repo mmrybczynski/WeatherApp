@@ -21,6 +21,7 @@
 		C108208E2AF4002F00036D22 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208D2AF4002F00036D22 /* LottieView.swift */; };
 		C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208F2AF4019000036D22 /* LottieFilesConstants.swift */; };
 		C10820922AF403B100036D22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10820912AF403B100036D22 /* LocationManager.swift */; };
+		C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB32AF55856009E9140 /* ShareLocationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C108208D2AF4002F00036D22 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		C108208F2AF4019000036D22 /* LottieFilesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFilesConstants.swift; sourceTree = "<group>"; };
 		C10820912AF403B100036D22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C16F3BB32AF55856009E9140 /* ShareLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLocationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				C108206E2AF3FB3400036D22 /* ContentView.swift */,
 				C108207D2AF3FC2000036D22 /* WeatherView.swift */,
 				C108208D2AF4002F00036D22 /* LottieView.swift */,
+				C16F3BB32AF55856009E9140 /* ShareLocationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */,
 				C108207E2AF3FC2000036D22 /* WeatherView.swift in Sources */,
 				C108206F2AF3FB3400036D22 /* ContentView.swift in Sources */,
 				C10820922AF403B100036D22 /* LocationManager.swift in Sources */,
@@ -343,6 +347,7 @@
 				DEVELOPMENT_TEAM = 76237HA5DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location to load weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -372,6 +377,7 @@
 				DEVELOPMENT_TEAM = 76237HA5DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app needs location to load weather";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
