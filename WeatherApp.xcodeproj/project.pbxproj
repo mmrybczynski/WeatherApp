@@ -22,6 +22,7 @@
 		C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208F2AF4019000036D22 /* LottieFilesConstants.swift */; };
 		C10820922AF403B100036D22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10820912AF403B100036D22 /* LocationManager.swift */; };
 		C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB32AF55856009E9140 /* ShareLocationView.swift */; };
+		C16F3BB62AF6F72B009E9140 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		C108208F2AF4019000036D22 /* LottieFilesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFilesConstants.swift; sourceTree = "<group>"; };
 		C10820912AF403B100036D22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C16F3BB32AF55856009E9140 /* ShareLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLocationView.swift; sourceTree = "<group>"; };
+		C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C10820912AF403B100036D22 /* LocationManager.swift */,
+				C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			files = (
 				C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */,
 				C108207E2AF3FC2000036D22 /* WeatherView.swift in Sources */,
+				C16F3BB62AF6F72B009E9140 /* WeatherManager.swift in Sources */,
 				C108206F2AF3FB3400036D22 /* ContentView.swift in Sources */,
 				C10820922AF403B100036D22 /* LocationManager.swift in Sources */,
 				C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */,

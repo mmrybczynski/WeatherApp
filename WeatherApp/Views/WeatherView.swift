@@ -10,22 +10,22 @@ import SwiftUI
 struct WeatherView: View {
     @ObservedObject var locationManager = LocationManager.shared
     var body: some View {
-        ZStack {
+        VStack {
+            Text("Miasto")
+            Spacer()
             
-            VStack {
-                Image(systemName: "location.fill")
-                    .padding(.vertical,5)
-                Text("City")
-                Spacer()
-                
-                LottieView(name: Constants.wait, loopMode: .loop)
-                    .scaleEffect(0.3)
-                
-                Spacer()
-                Text("16")
-                    .padding()
-            }
+            LottieView(name: Constants.wait, loopMode: .loop)
+                .frame(width: 100,height: 100)
+                .scaleEffect(0.3)
+    
+            Spacer()
+            
+            Text("16")
+                .padding()
         }
+        .padding(0.0)
+        .frame(height: .infinity)
+        
     }
 }
 
