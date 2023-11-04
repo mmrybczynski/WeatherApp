@@ -23,6 +23,7 @@
 		C10820922AF403B100036D22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10820912AF403B100036D22 /* LocationManager.swift */; };
 		C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB32AF55856009E9140 /* ShareLocationView.swift */; };
 		C16F3BB62AF6F72B009E9140 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */; };
+		C16F3BB82AF6FB94009E9140 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB72AF6FB94009E9140 /* LoadingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C10820912AF403B100036D22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		C16F3BB32AF55856009E9140 /* ShareLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLocationView.swift; sourceTree = "<group>"; };
 		C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
+		C16F3BB72AF6FB94009E9140 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				C108207D2AF3FC2000036D22 /* WeatherView.swift */,
 				C108208D2AF4002F00036D22 /* LottieView.swift */,
 				C16F3BB32AF55856009E9140 /* ShareLocationView.swift */,
+				C16F3BB72AF6FB94009E9140 /* LoadingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */,
 				C108206D2AF3FB3400036D22 /* WeatherAppApp.swift in Sources */,
 				C108208E2AF4002F00036D22 /* LottieView.swift in Sources */,
+				C16F3BB82AF6FB94009E9140 /* LoadingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

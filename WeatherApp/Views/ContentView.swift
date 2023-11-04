@@ -9,13 +9,30 @@ import SwiftUI
 
 struct ContentView: View {
     @ObservedObject var locationManager = LocationManager.shared
+    var weatherManager = WeatherManager()
+    @State var weather: ResponseBody?
     var body: some View {
-        Group {
-            if locationManager.userLocation == nil {
-                ShareLocationView()
-            } else {
-                WeatherView()
-            }
+        VStack {
+            if let location = locationManager.userLocation {
+                            if let weather = weather {
+                                WeatherView(weather: weather)
+                            } else {
+                                LoadingView()
+                                    .task {
+                                        do {
+                                            weather = try await weatherManager.getCurrentWeather(latitude: location.latitude, longitude: location.longitude)
+                                        } catch {
+                                            print("Error getting weather: \(error)")
+                                        }
+                                    }
+                            }
+                        } else {
+                            if locationManager.isLoading {
+                                LoadingView()
+                            } else {
+                                ShareLocationView()
+                            }
+                        }
         }
     }
 }
