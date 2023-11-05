@@ -20,6 +20,7 @@ struct LottieView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> Lottie.LottieAnimationView {
         let animationView = LottieAnimationView(name: name)
+        print("Nazwa animacji to \(name)")
         animationView.loopMode = loopMode
         animationView.play()
         /*let view = UIView(frame: .zero)
