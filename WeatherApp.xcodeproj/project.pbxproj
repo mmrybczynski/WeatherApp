@@ -21,6 +21,8 @@
 		C108208E2AF4002F00036D22 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208D2AF4002F00036D22 /* LottieView.swift */; };
 		C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C108208F2AF4019000036D22 /* LottieFilesConstants.swift */; };
 		C10820922AF403B100036D22 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10820912AF403B100036D22 /* LocationManager.swift */; };
+		C11322DF2AF7A777000FC508 /* WeatherData.json in Resources */ = {isa = PBXBuildFile; fileRef = C11322DE2AF7A777000FC508 /* WeatherData.json */; };
+		C11322E12AF7A7DF000FC508 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11322E02AF7A7DF000FC508 /* DataModel.swift */; };
 		C16F3BB42AF55856009E9140 /* ShareLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB32AF55856009E9140 /* ShareLocationView.swift */; };
 		C16F3BB62AF6F72B009E9140 /* WeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */; };
 		C16F3BB82AF6FB94009E9140 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16F3BB72AF6FB94009E9140 /* LoadingView.swift */; };
@@ -41,6 +43,8 @@
 		C108208D2AF4002F00036D22 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
 		C108208F2AF4019000036D22 /* LottieFilesConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieFilesConstants.swift; sourceTree = "<group>"; };
 		C10820912AF403B100036D22 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		C11322DE2AF7A777000FC508 /* WeatherData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = WeatherData.json; sourceTree = "<group>"; };
+		C11322E02AF7A7DF000FC508 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		C16F3BB32AF55856009E9140 /* ShareLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareLocationView.swift; sourceTree = "<group>"; };
 		C16F3BB52AF6F72B009E9140 /* WeatherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherManager.swift; sourceTree = "<group>"; };
 		C16F3BB72AF6FB94009E9140 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 			isa = PBXGroup;
 			children = (
 				C10820732AF3FB3600036D22 /* Preview Assets.xcassets */,
+				C11322DE2AF7A777000FC508 /* WeatherData.json */,
+				C11322E02AF7A7DF000FC508 /* DataModel.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -195,6 +201,7 @@
 			files = (
 				C10820892AF4001A00036D22 /* snow.json in Resources */,
 				C10820742AF3FB3600036D22 /* Preview Assets.xcassets in Resources */,
+				C11322DF2AF7A777000FC508 /* WeatherData.json in Resources */,
 				C108208B2AF4001A00036D22 /* thunder.json in Resources */,
 				C108208A2AF4001A00036D22 /* sunny.json in Resources */,
 				C108208C2AF4001A00036D22 /* rainy.json in Resources */,
@@ -215,6 +222,7 @@
 				C16F3BB62AF6F72B009E9140 /* WeatherManager.swift in Sources */,
 				C108206F2AF3FB3400036D22 /* ContentView.swift in Sources */,
 				C10820922AF403B100036D22 /* LocationManager.swift in Sources */,
+				C11322E12AF7A7DF000FC508 /* DataModel.swift in Sources */,
 				C10820902AF4019000036D22 /* LottieFilesConstants.swift in Sources */,
 				C108206D2AF3FB3400036D22 /* WeatherAppApp.swift in Sources */,
 				C108208E2AF4002F00036D22 /* LottieView.swift in Sources */,

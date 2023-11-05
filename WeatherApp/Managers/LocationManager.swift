@@ -11,6 +11,8 @@ import CoreLocation
 class LocationManager: NSObject, ObservableObject {
     private var manager = CLLocationManager()
     @Published var userLocation: CLLocation?
+    @Published var location: CLLocationCoordinate2D?
+    @Published var isLoading = false
     static let shared = LocationManager()
     
     override init() {
@@ -21,6 +23,7 @@ class LocationManager: NSObject, ObservableObject {
     }
     
     func requestLocation() {
+        isLoading = true
         manager.requestWhenInUseAuthorization()
     }
 }
@@ -45,7 +48,12 @@ extension LocationManager: CLLocationManagerDelegate {
     }
     
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        guard let location = locations.last else {return}
-        self.userLocation = location
+        location = locations.first?.coordinate
+        isLoading = false
+    }
+    
+    func locationManager(_ manager: CLLocationManager, didFailRangingFor beaconConstraint: CLBeaconIdentityConstraint, error: Error) {
+        isLoading = false
+        print("Error \(error)")
     }
 }
